@@ -2,7 +2,7 @@
   "name": "dptraining",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://devalparikh.github.io/training",
+  "homepage": "https://devalparikh.github.io/Training",
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -19,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.22"
   }
