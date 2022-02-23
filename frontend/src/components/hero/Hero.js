@@ -1,3 +1,4 @@
+import HeroImage from "../../img/eng.png";
 const Hero = () => {
   return (
     <div className="hero flex justify-center flex-wrap min-h-screen bg-base-100 text-base-content">
@@ -26,7 +27,7 @@ const Hero = () => {
       <div>
         <img
           // src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/04/react-svg-component-library-1.gif?ssl=1"
-          src="eng.png"
+          src={HeroImage}
           className="max-w-sm "
           alt="hero"
         />

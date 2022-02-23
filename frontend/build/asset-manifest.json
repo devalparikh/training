@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Training/static/css/main.9303541c.css",
+    "main.js": "/Training/static/js/main.50152afd.js",
+    "static/js/787.73b414c1.chunk.js": "/Training/static/js/787.73b414c1.chunk.js",
+    "index.html": "/Training/index.html",
+    "main.9303541c.css.map": "/Training/static/css/main.9303541c.css.map",
+    "main.50152afd.js.map": "/Training/static/js/main.50152afd.js.map",
+    "787.73b414c1.chunk.js.map": "/Training/static/js/787.73b414c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9303541c.css",
+    "static/js/main.50152afd.js"
+  ]
+}

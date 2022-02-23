@@ -107,7 +107,9 @@ const About = () => {
         *Salaries are GlassDoor estimates
       </p> */}
       <div className="grid place-content-center h-40">
-        <button class="btn btn-wide btn-primary btn-lg">Enroll Today!</button>
+        <button class="btn btn-wide btn-primary btn-lg text-neutral">
+          Enroll Today!
+        </button>
       </div>
     </div>
   );
